@@ -4,4 +4,4 @@ Move the numbered tiles around until they are in numerical order. You can only m
 
 ## Do you want to play? [YES](https://epicdoggames.github.io/NY-Giants-Are-Bums/) **NO**
 
-![](https://github.com/EpicDogGames/NY-Giants-Are-Bums/main/sliderpuzzle.gif)
+![](https://github.com/EpicDogGames/NY-Giants-Are-Bums/blob/main/sliderpuzzle.gif)

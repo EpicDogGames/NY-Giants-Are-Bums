@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: Lucida;
+    src: url('resources/fonts/Monaco.ttf');
+}
+
+* {
+font-family: Arial;
+box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	padding: 0 10px;
+}
+
+body {
+	margin: 0px;
+	background-color: #ff4500;
+}
+
+div#game {
+	height: 336px;
+	position: relative;
+	width: 336px;
+	margin: auto auto;
+	margin-top: 50px;
+}
+
+li.tile {
+	display: inline-block;
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	transition: 0.3s;
+	cursor: pointer;
+	background-size: contain;
+}
+
+#blank {
+	cursor: default;
+	border: none;
+}
+
+#help {
+	margin-top:10px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+div#frame {
+	display: flex;
+	height: 336px;
+	width: 336px;
+	position: relative;
+	margin: auto auto;
+	margin-top: 50px;
+	align-items: center;
+	justify-content: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#h4 {
+	display: flex;
+	margin-top: 10px;
+	width: 100%;
+	color: white;
+	font-size: 25px;
+	font-style: bold;
+	text-align: center;
+	text-transform: uppercase;
+	justify-content: center;
+
+}
+
+#line1, #line2 {
+	display: flex;
+	margin-top: 10px;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+}
+
+#nextPuzzle {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#nextPuzzle button {
+	padding: 12px 23px;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: navy;
+	border-radius: 4px;
+	text-transform: uppercase
+}
+
+span.number {
+	display: none;
+	width: 30px;
+	border: 1px solid navy;
+	color: rgba(248, 245, 245, 0.75);
+	background-color: rgba(252, 6, 6, 0.5);
+	text-align: center;
+	font-size: 25px;
+}

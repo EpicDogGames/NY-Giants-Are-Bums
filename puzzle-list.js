@@ -74,7 +74,7 @@ const puzzleList = [
     {
         folderName: "theglock",
         caption: "Burress vs The Glock",
-        line1: "Shots Self in Leg",
+        line1: "Shoots Self in Leg",
         line2: "Spends Next 2 Years in Jail"
     },
     {
